@@ -74,15 +74,14 @@ public class Scientific_Calculator {
 	private void initialize() {
 		frmStandardCalculator = new JFrame();
 		frmStandardCalculator.setTitle("Standard Calculator");
-		//	frmStandardCalculator.setBounds(100, 100, 1200, 567);
-	 frmStandardCalculator.setBounds(100, 100, 418, 567);
+// 		frmStandardCalculator.setBounds(100, 100, 1200, 567);                         To test the functions you can open the calculator completely
+	 	frmStandardCalculator.setBounds(100, 100, 418, 567);
 		frmStandardCalculator.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frmStandardCalculator.getContentPane().setLayout(null);
 
 		txtDisplay = new JTextField();
 		txtDisplay.setHorizontalAlignment(SwingConstants.RIGHT);
 		txtDisplay.setFont(new Font("Tahoma", Font.BOLD, 20));
-		// txtDisplay.setBounds(10, 10, 858, 48);
 		txtDisplay.setBounds(10, 10, 378, 48);
 		frmStandardCalculator.getContentPane().add(txtDisplay);
 		txtDisplay.setColumns(10);
